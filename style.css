@@ -76,6 +76,15 @@ footer {
 footer :hover{
     color: #ff6600;
 }
+@media screen and (min-width: 320px) and (max-width:380px){
+    #flex-container-02{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 2%;
+
+    }
+}
 @media screen and (min-width: 380px) and (max-width:600px){
     #flex-container-02{
         display: flex;
